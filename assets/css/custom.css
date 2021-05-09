@@ -1,0 +1,24 @@
+#skills-container {
+  width: 66em;
+}
+
+#skills-wrapper {
+position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills-header-container {
+  /* position: absolute;
+  top: 0;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto; */
+  padding: 0!important;
+  text-align: center;
+}
+
+#icon-container {
+  width: 100%;
+}

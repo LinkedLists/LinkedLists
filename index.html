@@ -1,4 +1,6 @@
 <!DOCTYPE HTML>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
 <!--
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
@@ -34,7 +36,7 @@
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h2>About Me</h2>
+								<h2><strong>About Me</strong></h2>
 							</header>
 							<p>AAAAAAAAAAAAAAAAHHHHHHHHHHH</p>
 						</div>
@@ -44,27 +46,42 @@
 					</div>
 				</div>
 			</section>
-
+			<i class="devicon-react-original-wordmark colored"></i>
 		<!-- Two -->
 			<section id="two" class="main style2">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<ul class="major-icons">
-								<li><span class="icon solid style1 major fa-code"></span></li>
-								<li><span class="icon solid style2 major fa-bolt"></span></li>
-								<li><span class="icon solid style3 major fa-camera-retro"></span></li>
-								<li><span class="icon solid style4 major fa-cog"></span></li>
-								<li><span class="icon solid style5 major fa-desktop"></span></li>
-								<li><span class="icon solid style6 major fa-calendar"></span></li>
-							</ul>
-						</div>
-						<div class="col-6 col-12-medium">
+				<div class="container" id='skills-container'>
+					<div class="row gtr-150" id='skills-wrapper'>
+
+						<div class="col-6 col-12-medium" id='skills-header-container'>
 							<header class="major">
-								<h2>Skills</h2>
+								<h2><strong>Skills</strong></h2>
 							</header>
 							<p>Adipipssefsefseum.</p>
 						</div>
+
+						<div class="col-6 col-12-medium" id='icon-container'>
+							<ul class="major-icons">
+								<li><span class="icon solid style1 major"><i class="devicon-react-original colored"></i></span></li>
+								<li><span class="icon solid style2 major"><i class="devicon-redux-original colored"></i></span></li>
+								<li><span class="icon solid style3 major"><i class="devicon-rails-plain colored"></i></span></li>
+								<li><span class="icon solid style4 major"><i class="devicon-ruby-plain colored"></i></span></li>
+								<li><span class="icon solid style5 major"><i class="devicon-javascript-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"><i class="devicon-html5-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"><i class="devicon-css3-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"><i class="devicon-nodejs-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"><i class="devicon-postgresql-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"><i class="devicon-mongodb-plain colored"></i></span></li>
+								<li><span class="icon solid style6 major"></span></li>
+								<li><span class="icon solid style6 major"></span></li>
+								<li><span class="icon solid style6 major"></span></li>
+							</ul>
+						</div>
+						<!-- <div class="col-6 col-12-medium">
+							<header class="major">
+								<h2><strong>Skills</strong></h2>
+							</header>
+							<p>Adipipssefsefseum.</p>
+						</div> -->
 					</div>
 				</div>
 			</section>
@@ -73,12 +90,12 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Projects</h2>
+						<h2><strong>Projects</strong></h2>
 					</header>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/preview.png" alt="" /></span>
-							<h3>SoundClout</h3>
+							<a href='https://kenny-fsp.herokuapp.com/#/' target="_blank" class="image fit"><img src="images/preview.png" alt="" /></a>
+							<h3><strong><a href='https://kenny-fsp.herokuapp.com/#/' target="_blank" class="image fit">SoundClout</a></strong></h3>
 							<p>SoundClout is a fullstack clone of SoundCloud. It is a single page web app built using React, Redux, and Rails where users 
 							can upload music, leave comments, or put their favorite hits on repeat.</p>
 							<ul class="actions special">
@@ -86,16 +103,16 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/preview.gif" alt="" /></span>
-							<h3>Keytar Hero</h3>
+							<a href='https://linkedlists.github.io/Keytar-Hero/' target="_blank" class="image fit"><img src="images/preview.gif" alt="" /></a>
+							<h3><strong><a href='https://linkedlists.github.io/Keytar-Hero/' target="_blank" class="image fit">Keytar Hero</a></strong></h3>
 							<p>Keytar Hero is a music and rhythm game inspired by the popular video game, Guitar Hero. It is built using vanilla Javascript, HTML, and CSS.</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Nomad</h3>
+							<a href='https://nomad2.herokuapp.com/#/' target="_blank" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+							<h3><strong><a href='https://nomad2.herokuapp.com/#/' target="_blank" class="image fit">Nomad</a></strong></h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">More</a></li>
@@ -441,13 +458,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<section id="footer">
 				<ul class="icons">
 
-					<li><a href="https://angel.co/u/kenny-zeng" class="icon brands alt fa-angellist"><span class="label">AngelList</span></a></li>
-					<li><a href="https://github.com/LinkedLists" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.linkedin.com/in/k-z-96a742208/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://angel.co/u/kenny-zeng" target="_blank" class="icon brands alt fa-angellist"><span class="label">AngelList</span></a></li>
+					<li><a href="https://github.com/LinkedLists" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/k-z-96a742208/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					<li><a href="mailto:kzeng.95@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; 2021 Kenny Zeng</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</section>
 
