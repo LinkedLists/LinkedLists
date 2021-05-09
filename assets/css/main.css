@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background: #f3f3f3 url("images/overlay2.png")!important;
 }
 
 ol, ul {
@@ -2576,7 +2577,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 /* Major Icons */
@@ -2816,7 +2817,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 5em 0 3em 0;
 	}
 
 		.main.style1 {
@@ -2827,7 +2828,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/header2.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2914,7 +2915,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		/* padding: 9em 0 9em 0 ; */
+		padding: 6em 0 7em 0;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3110,7 +3112,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		/* padding: 6em 0 6em 0 ; */
+		padding: 4em 0 4em 0;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;

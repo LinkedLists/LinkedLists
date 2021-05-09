@@ -10,15 +10,30 @@ position: relative;
 }
 
 #skills-header-container {
-  /* position: absolute;
-  top: 0;
-  left: 0%;
-  right: 0%;
-  margin: 0 auto; */
-  padding: 0!important;
+  padding: 0 0 0 3em;
   text-align: center;
 }
 
 #icon-container {
   width: 100%;
+}
+
+.idk {
+  height: 100%;
+  transform: rotate(-45deg)!important;
+}
+
+li span div i{
+  font-size: 2em;
+}
+
+#three, #one {
+
+  /* background-color: #f3f3f3; */
+  /* color: rgba(255, 255, 255, 0.75); */
+  /* background-attachment: fixed,							fixed; */
+  background: #f3f3f3 url("images/overlay2.png")!important;
+  /* background-size: auto,							cover; */
+
+  /* background: #f3f3f3 url(images/overlay.png); */
 }
