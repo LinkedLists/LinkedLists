@@ -21,10 +21,23 @@ position: relative;
 .idk {
   height: 100%;
   transform: rotate(-45deg)!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.huh {
+  line-height: 1;
 }
 
 li span div i{
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+#header {
+  /* padding: 6em 0 5em 0!important; */
 }
 
 #three, #one {
@@ -36,4 +49,33 @@ li span div i{
   /* background-size: auto,							cover; */
 
   /* background: #f3f3f3 url(images/overlay.png); */
+}
+
+#two, #three {
+  padding: 3em 0 1em 0;
+}
+
+.col-4 .image.fit img {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  object-fit: cover;
+  max-height: 300px;
+  margin: auto;
+}
+
+.image.fit {
+  margin: 0 0 1em 0!important;
+}
+
+header.major {
+  /* margin: 0!important; */
+}
+
+.col-12-medium p {
+  height: 176px;
+}
+
+.fa-users {
+  color: dodgerblue;
 }
