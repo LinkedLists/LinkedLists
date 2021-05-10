@@ -60,12 +60,30 @@ li span div i{
   height: 300px!important;
   max-width: 300px!important;
   object-fit: cover!important;
-  max-height: 300px!important;
+  max-height: 300px!important;  
   margin: auto!important;
+}
+
+.col-4 .image.fit img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.col-4 .image.fit {
+  display: contents!important;
+  width: auto!important;
 }
 
 .image.fit {
   margin: 0 0 1em 0!important;
+}
+
+.col-4 .image.fit {
+  display: inline;
+}
+
+.col-4 h3 {
+  margin: 1em 0 1em 0!important;
 }
 
 header.major {
@@ -78,4 +96,31 @@ header.major {
 
 .fa-users {
   color: dodgerblue!important;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.noselect:hover {
+  background: none!important;
+  cursor: default!important;
+}
+
+.noselect a {
+  text-decoration: none;
+  border-bottom-color: transparent !important;
+}
+
+#email-footer {
+  border-bottom: none!important;
+}
+
+.footer-p {
+  font-size: 24px;
 }
