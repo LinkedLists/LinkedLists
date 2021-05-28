@@ -124,3 +124,19 @@ header.major {
 .footer-p {
   font-size: 24px;
 }
+
+#resume {
+  font-size: 1.2em;
+}
+
+#major-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.major-icons li .icon {
+  height: 7em!important;
+  width: 7em!important;
+}
