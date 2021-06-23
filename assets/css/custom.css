@@ -141,6 +141,12 @@ ul.major-icons li .icon {
   width: 7em!important;
 }
 
-#about_1, #about_2 {
+#about_1, #about_2, #about_3 {
   height: auto!important;
+  margin: 0 0 1em 0;
+  color: #000;
+}
+
+#about_img {
+  margin-top: 5.8em!important;
 }
