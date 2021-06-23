@@ -140,3 +140,7 @@ ul.major-icons li .icon {
   height: 7em!important;
   width: 7em!important;
 }
+
+#about_1, #about_2 {
+  height: auto!important;
+}
